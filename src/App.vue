@@ -1,7 +1,18 @@
-<script setup lang="ts"></script>
-
 <template>
-  <router-view />
+  <NavbarComp />
+  <main>
+    <router-view />
+  </main>
+  <FooterComp />
 </template>
 
-<style scoped></style>
+<script setup lang="ts">
+import FooterComp from './components/FooterComp.vue';
+import NavbarComp from './components/NavbarComp.vue';
+</script>
+
+<style scoped>
+main {
+  height: 100vh;
+}
+</style>
