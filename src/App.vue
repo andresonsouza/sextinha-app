@@ -7,8 +7,6 @@
 </template>
 
 <script setup lang="ts">
-import FooterComp from './components/FooterComp.vue';
-import NavbarComp from './components/NavbarComp.vue';
 </script>
 
 <style scoped>
